@@ -7,13 +7,19 @@
 }
 
 .cases {
-    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+    border-bottom: 10px solid rgba(231, 74, 59, 1);
 }
 
 .recovered {
-    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+    border-bottom: 10px solid rgba(2, 162, 71, 1);
 }
 
 .deaths {
-    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+    border-bottom: 10px solid rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 770px) {
+    .card {
+        margin: 2% 0 !important;
+    }
 }
